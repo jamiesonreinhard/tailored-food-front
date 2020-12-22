@@ -1,0 +1,13 @@
+.navbar {
+  z-index: 5;
+}
+
+.nav-link a {
+  color: #48b4e0 !important;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom: 5px solid #48b4e0;
+  }
+}

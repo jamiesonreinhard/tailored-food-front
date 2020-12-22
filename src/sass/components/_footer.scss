@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #48b4e0;
+  color: white;
+}
+
+.footer-contents {
+}
+
+.footer-contents p {
+  margin-bottom: 0;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.footer-contact-info {
+  display: flex;
+  flex-direction: column;
+}

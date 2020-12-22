@@ -1,0 +1,41 @@
+.contact {
+  background: linear-gradient(to bottom, #fff, #48b4e0);
+  min-height: 30rem;
+  position: relative;
+}
+
+.contact-form {
+  padding: 16px;
+  background-color: rgba(0, 0, 0, .8);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px gray;
+}
+
+.contact-cta {
+  width: 90%;
+}
+
+.contact-cta-title {
+  color: #e0ad3e;
+  font-size: 70px;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  background-color: black !important;
+  color: white !important;
+  font-size: 14px !important;
+  border: none !important;
+  &:focus {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+input {
+  border: none !important;
+  &:focus {
+    border: none !important;
+  }
+}
