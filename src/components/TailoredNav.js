@@ -11,7 +11,7 @@ const TailoredNav = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link><Link to="/about">About</Link></Nav.Link>
-            <Nav.Link><Link to="/partners">Partners</Link></Nav.Link>
+            <Nav.Link><Link to="/projects">Projects</Link></Nav.Link>
             <Nav.Link><Link to="/media">Media</Link></Nav.Link>
             <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
           </Nav>
