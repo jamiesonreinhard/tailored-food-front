@@ -26,12 +26,7 @@ const ContactForm = () => {
       subject: subject,
       message: message
     }
-    setInquiry({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    });
+    setInquiry({});
     if(emailjs.send('jamiesongmail', 'template_c1bv88l', templateParams, 'user_4zNk2mQBDz0bycg2XAfpw')) {
       setShow(true);
       
