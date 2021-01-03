@@ -1,5 +1,5 @@
 import react from 'react';
-import { Navbar,Nav } from 'react-bootstrap';
+import { Navbar,Nav,NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../images/tailored_food_logo.svg';
 
@@ -10,7 +10,11 @@ const TailoredNav = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link><Link to="/about">About</Link></Nav.Link>
+            <NavDropdown title="About" id="basic-nav-dropdown">
+              <NavDropdown.Item><Link to="/about">Who Are We?</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/partners">Partners</Link></NavDropdown.Item>
+            </NavDropdown>
+            
             <Nav.Link><Link to="/projects">Projects</Link></Nav.Link>
             <Nav.Link><Link to="/media">Media</Link></Nav.Link>
             <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>

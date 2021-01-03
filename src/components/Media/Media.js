@@ -4,7 +4,7 @@ const Media = () => {
   return(
     <div className="media">
       <div className="container">
-        This section will contain videos and photos
+        Links to articles, videos, photos, etc...
       </div>
     </div>
   )

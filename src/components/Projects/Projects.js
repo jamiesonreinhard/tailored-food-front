@@ -12,7 +12,7 @@ const Projects = () => {
   const projectDeck = projectData.map((project) => {
     return(
       <div>
-        <span className={active === project ? "project-name-active" : "project-name"} onClick={() => setActive(project)} key={project.name} active={active === project}>{project.name}</span><br />
+        <span className={active === project ? "project-name-active" : "project-name"} onClick={() => setActive(project)} key={project.location} active={active === project}>{project.location}</span><br />
       </div>
       
     )
