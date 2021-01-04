@@ -7,3 +7,11 @@
   border-radius: 10px;
   height: 500px;
 }
+
+.marker {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  z-index: 1000;
+}
