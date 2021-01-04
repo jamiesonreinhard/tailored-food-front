@@ -1,7 +1,24 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import {Link} from 'react-router-dom';
+import mapboxgl from 'mapbox-gl';
+
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 
 const About = () => {
+  const mapContainerRef = useRef(null);
+
+  useEffect(() => {
+    const map = new mapboxgl.Map({
+      container: mapContainerRef.current,
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [36.8164, 9.4295],
+      zoom: 2
+    })
+
+    map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+
+    return () => map.remove();
+  }, []);
 
   return(
     <div className="about">
@@ -38,7 +55,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-lg-5 col-sm-12">
-            MAP GOES HERE  
+            <div className="map-container" ref={mapContainerRef} />;
           </div>
         </div>
       </div>
