@@ -1,24 +1,31 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import mapboxgl from 'mapbox-gl';
-
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
+import ReactMapGl, { Marker, Popup } from 'react-map-gl';
+import * as locationData from '../data/locations.json';
+import {projects} from '../data/projects';
 
 const About = () => {
-  const mapContainerRef = useRef(null);
-
+  const [viewport, setViewport] = useState({
+    latitude: -8.4606,
+    longitude: -10.9408,
+    zoom: 1,
+    width: "100%",
+    height: "400px"
+  })
+  const [selectedProject, setSelectedProject] = useState(null);
+  
   useEffect(() => {
-    const map = new mapboxgl.Map({
-      container: mapContainerRef.current,
-      style: 'mapbox://styles/mapbox/streets-v11',
-      center: [36.8164, 9.4295],
-      zoom: 2
-    })
+    const listener = (e) => {
+      if (e.key === "Escape") {
+        setSelectedProject(null);
+      }
+    };
+    window.addEventListener('keydown', listener)
 
-    map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
-
-    return () => map.remove();
-  }, []);
+    return () => {
+      window.removeEventListener("keydown", listener);
+    }
+  }, [])
 
   return(
     <div className="about">
@@ -55,7 +62,55 @@ const About = () => {
             </div>
           </div>
           <div className="col-lg-5 col-sm-12">
-            <div className="map-container" ref={mapContainerRef} />;
+            <div className="sticky-top">
+              <ReactMapGl 
+                {...viewport} 
+                mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+                className="map-container"
+                mapStyle="mapbox://styles/jamoskier2/ckjirszpt3yln1aoikzkgmvva"
+                onViewportChange={viewport => {
+                  setViewport(viewport);
+                }}
+                onClick={e => {
+                  e.preventDefault();
+                  setSelectedProject(null);
+                }}
+              >
+                {projects.map(project => {
+                  return(
+                    <Marker 
+                    key={project.location} 
+                    latitude={project.coordinates[0]} 
+                    longitude={project.coordinates[1]}
+                  >
+                    <div
+                      className="marker"
+                      onClick={e => {
+                        e.preventDefault();
+                        setSelectedProject(project);
+                      }}
+                    ></div>
+                  </Marker>
+                  )
+                })}
+
+                {selectedProject && (
+                  <Popup 
+                    latitude={selectedProject.coordinates[0]} 
+                    longitude={selectedProject.coordinates[1]}
+                    onClose={() => {
+                      setSelectedProject(null);
+                    }}
+                  >
+                    <div>
+                      <h5>{selectedProject.location}</h5>
+                      {/* <small>{selectedProject.product}</small> */}
+                    </div>
+                  </Popup>
+                )}
+              </ReactMapGl>
+            </div>
+            
           </div>
         </div>
       </div>
