@@ -67,7 +67,7 @@ const About = () => {
                 {...viewport} 
                 mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
                 className="map-container"
-                // mapStyle="mapbox://styles/jamoskier2/ckjirszpt3yln1aoikzkgmvva"
+                mapStyle="mapbox://styles/jamoskier2/ckjirszpt3yln1aoikzkgmvva"
                 onViewportChange={viewport => {
                   setViewport(viewport);
                 }}
