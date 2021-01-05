@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "city": "Monrovia"
+        "location": "Monrovia"
       },
       "geometry": {
         "type": "Point",
@@ -14,41 +14,51 @@
     {
       "type": "Feature",
       "properties": {
-        "city": ""
+        "location": "Peru"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [50, 50]
+        "coordinates": [12.0464, 77.0428]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "city": ""
+        "location": "Mozambique"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [70, 70]
+        "coordinates": [18.6657, 35.5296]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "city": ""
+        "location": "Brazil"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [80, 80]
+        "coordinates": [14.2350, 51.9253]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "city": ""
+        "location": "Congo"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [70, 70]
+        "coordinates": [4.0383, 21.7587]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Madagascar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.7669, 46.8691]
       }
     }
   ]

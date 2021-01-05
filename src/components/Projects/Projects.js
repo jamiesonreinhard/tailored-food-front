@@ -23,11 +23,11 @@ const Projects = () => {
       <Container>
       <h2 className="projects-heading mb-5">Our Projects</h2>
         <div className="row">
-          <div className="col-lg-4" style={{textAlign: "right"}}>
+          <div className="col-lg-2" style={{textAlign: "center"}}>
           
             {projectDeck}
           </div> 
-          <div className="col-lg-8">
+          <div className="col-lg-10">
             <Project project={active} />
           </div>
         </div>

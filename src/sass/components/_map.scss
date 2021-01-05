@@ -9,9 +9,39 @@
 }
 
 .marker {
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  background-color: black;
+  background-color: white;
+  border: 1px solid black;
   z-index: 1000;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background-color: #daac42;
+    transform: scale(1.5);
+  }
+}
+
+.mapboxgl-popup-content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, .9);
+  color: white;
+  border: 1px solid white;
+}
+
+.mapboxgl-popup-content h5 {
+  margin: 0;
+}
+
+.mapboxgl-popup-close-button {
+  color: white;
+  &:active {
+    outline: none;
+    border: none;
+  }
 }
