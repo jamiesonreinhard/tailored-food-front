@@ -12,11 +12,12 @@ const TailoredNav = () => {
           <Nav className="ml-auto">
             <NavDropdown title="About" id="basic-nav-dropdown">
               <NavDropdown.Item><Link to="/about">Who Are We?</Link></NavDropdown.Item>
-              <NavDropdown.Item><Link to="/partners">Partners</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/team">Our Team</Link></NavDropdown.Item>
+              {/* <NavDropdown.Item><Link to="/partners">Partners</Link></NavDropdown.Item> */}
             </NavDropdown>
             
             <Nav.Link><Link to="/projects">Projects</Link></Nav.Link>
-            <Nav.Link><Link to="/media">Media</Link></Nav.Link>
+            {/* <Nav.Link><Link to="/media">Media</Link></Nav.Link> */}
             <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
