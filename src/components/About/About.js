@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import ReactMapGl, { Marker, Popup } from 'react-map-gl';
-import {projects} from '../data/projects';
+import {projects} from '../../data/projects';
 import mapboxgl from 'mapbox-gl';
 // eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
@@ -34,7 +34,7 @@ const About = () => {
       <div className="container">
         <h2 className="about-title">Tailored Food will be a key catalyst in <span style={{color: "#e0ad3e"}}>ending hunger by 2030</span> by building delicious, nutritious, low-cost food systems around the world.</h2>
         <div className="row">
-          <div className="col-lg-7 col-sm-12">
+          <div className="col-lg-7 col-sm-12 mb-3">
             <div className="mb-4">
                 <h4 style={{fontSize: "20px", fontWeight: "bold"}}>Our Story</h4>
               
@@ -64,7 +64,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-lg-5 col-sm-12">
-            <div className="sticky-top">
+            <div className="sticky-top text-center">
               <ReactMapGl 
                 {...viewport} 
                 mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
