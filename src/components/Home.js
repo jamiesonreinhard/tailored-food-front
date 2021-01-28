@@ -11,7 +11,7 @@ const Home = () => {
         
         <div className="home-heading-box">
           <small className="home-secondary-title"><strong>WE BUILD FOOD SYSTEMS THAT ARE</strong></small>
-          <h1 className="home-title"><span style={{color: "#51b688"}}>Nutritious, </span><span style={{color: "#e0ad3e"}}>Delicious, </span><span style={{color: "#48b4e0"}}>Affordable, </span><span>& Local</span></h1>
+          <h1 className="home-title mb-4">Nutritious, Delicious, Affordable & Local</h1>
           <h5 className="home-tertiary-title">We aim to end hunger by 2030 through local nutrition entrepreneurship.</h5>
         </div>
         
