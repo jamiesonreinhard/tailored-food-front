@@ -9,7 +9,7 @@ const TailoredNav = () => {
         <Navbar.Brand><Link to="/"><img src={logo} alt="logo" /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav className="ml-auto mr-5">
             <NavDropdown title="About" id="basic-nav-dropdown">
               <NavDropdown.Item><Link to="/about">Who Are We?</Link></NavDropdown.Item>
               <NavDropdown.Item><Link to="/team">Our Team</Link></NavDropdown.Item>

@@ -1,9 +1,21 @@
 .navbar {
   z-index: 5;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.dropdown-toggle .nav-link {
+  color: white !important;
+}
+
+.dropdown-item {
+  color: #48b4e0 !important;
 }
 
 .nav-link a {
-  color: #48b4e0 !important;
+  color: white !important;
   font-weight: bold;
 
   &:hover {
@@ -13,7 +25,11 @@
 }
 
 .nav-item a {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-item .dropdown-item a {
   color: #48b4e0 !important;
   font-weight: bold;
-
 }

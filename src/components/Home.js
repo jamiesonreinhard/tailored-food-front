@@ -6,7 +6,7 @@ const Home = () => {
 
   return(
     <div className="home">
-        <BgVideo />
+        {/* <BgVideo /> */}
       <div className="home-heading">
         
         <div className="home-heading-box">
