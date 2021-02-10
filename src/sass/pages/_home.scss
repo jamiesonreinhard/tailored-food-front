@@ -1,5 +1,4 @@
 .home {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(72, 180, 224, 1));
   position: relative;
 }
 
@@ -37,46 +36,91 @@
   font-size: 26px;
 }
 
+// ------------------- Tailored Model ----------------------- //
+
 .tailored-model {
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
   justify-content: space-evenly;
-  padding: 0 0 3rem;
+  padding: 0 5rem 3rem;
 }
 
 .tailored-model-card {
   display: flex;
+  padding: 20px 0;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  text-align: center;
-  max-width: 300px;
-  &-icon{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid white;
-    position: relative;
-    margin-bottom: 1rem;
-  }
-  &-number{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+}
+
+.tailored-model-card-image-box {
+  min-width: 300px;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+}
+
+.tailored-model-card-image {
+  width: 300px;
+  object-fit: cover;
+}
+
+.tailored-model-card-image-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #48b4e0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  &.right {
+    top: 0;
+    left: 100%;
   }
 }
 
+.tailored-model-card-image-icon h5 {
+  padding: 0;
+  margin: 0;
+}
+
+// ----------- Partners ---------- //
+
+.partners-home {
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.partners-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.partners-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+}
+
+// ------- footer ------ //
+.home-footer-box {
+  display: flex;
+  padding: 3rem 1rem;
+}
+.home-footer-details {
+  margin-right: 10px;
+}
+
 @media (max-width: 1200px) {
-  .tailored-model {
-    flex-direction: column;
-    align-items: center;
-  }
-  .tailored-model-card {
-    text-align: center;
-    max-width: 100%;
-  }
   .home-heading {
     min-height: 80vh;
   }
@@ -86,16 +130,8 @@
 }
 
 @media (max-width: 800px) {
-  .tailored-model {
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-  }
-  .tailored-model-card {
-    max-width: 80%;
-  }
   .home-heading {
-    min-height: 60vh;
+    min-height: 70vh;
   }
   .home-heading-box {
     padding: 2rem 0 0 0;
@@ -110,5 +146,22 @@
   
   .home-tertiary-title {
     font-size: 20px;
+  }
+  .tailored-model {
+    padding: 0;
+  }
+  .tailored-model-card {
+    text-align: center;
+  }
+  .tailored-model-card-image-box {
+    display: none;
+  }
+  .home-footer-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+  .home-footer-details {
+    margin-right: 0;
   }
 }

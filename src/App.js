@@ -1,7 +1,7 @@
 import './sass/App.scss';
 
 import { Switch, Route } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import About from './components/About/About';
 import Team from './components/About/Team';
 import Partners from './components/Partners/Partners';
