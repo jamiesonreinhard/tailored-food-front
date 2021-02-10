@@ -6,7 +6,7 @@ import HomeFooter from './HomeFooter';
 
 
 const Home = () => {
-
+  
   return(
     <div className="home">
         {/* <BgVideo /> */}

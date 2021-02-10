@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import ReactMapGl, { Marker, Popup } from 'react-map-gl';
 import {projects} from '../../data/projects';
 import mapboxgl from 'mapbox-gl';
+import AboutBanner from './AboutBanner';
 // eslint-disable-next-line import/no-webpack-loader-syntax
 mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 
@@ -30,7 +31,9 @@ const About = () => {
   }, [])
 
   return(
-    <div className="about">
+    <div>
+      <AboutBanner />
+      <div className="about">
       <div className="container">
         <h2 className="about-title">Tailored Food will be a key catalyst in <span style={{color: "#e0ad3e"}}>ending hunger by 2030</span> by building delicious, nutritious, low-cost food systems around the world.</h2>
         <div className="row">
@@ -116,6 +119,7 @@ const About = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

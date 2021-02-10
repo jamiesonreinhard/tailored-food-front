@@ -9,6 +9,9 @@
 
 .dropdown-toggle .nav-link {
   color: white !important;
+  &.black {
+    color: black !important;
+  }
 }
 
 .dropdown-item {
@@ -22,6 +25,14 @@
   &:hover {
     text-decoration: none;
     border-bottom: 5px solid #48b4e0;
+  }
+
+  &.active {
+    border-bottom: 5px solid #48b4e0;
+  }
+
+  &.black {
+    color: black !important;
   }
 }
 
