@@ -6,7 +6,7 @@ import logo from '../images/tailored_food_logo.svg';
 const TailoredNav = () => {
   return(
       <Navbar expand="lg">
-        <Navbar.Brand><Link to="/"><img src={logo} alt="logo" /></Link></Navbar.Brand>
+        <Navbar.Brand class="pl-5"><Link to="/"><img src={logo} alt="logo" /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">

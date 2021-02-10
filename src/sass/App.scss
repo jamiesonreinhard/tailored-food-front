@@ -12,8 +12,16 @@
 @import "components/bg-video";
 @import "components/button";
 @import "components/map";
+@font-face {
+  font-family: 'QuincyCF-BoldItalic';
+  src: local('QuincyCF-BoldItalic'), url(../fonts/QuincyCF-BoldItalic.woff) format('woff')
+}
 
 .App {
   position: relative;
   min-height: 100vh;
+}
+
+html {
+  position: relative;
 }
