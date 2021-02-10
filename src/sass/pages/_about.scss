@@ -2,9 +2,30 @@
   min-height: 30rem;
 }
 
+.about-tabs {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 0 0;
+  &-link {
+    font-size: 20px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+    color: #bdbdbd;
+    &.active {
+      color: black;
+    }
+    &:hover {
+      text-decoration: none;
+      cursor: pointer;
+      color: black;
+    }
+  }
+}
+
 .about-title {
   text-align: center;
-  padding: 20px 0 50px 0;
+  padding-bottom: 40px;
 }
 
 .about-story-quote {

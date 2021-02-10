@@ -24,15 +24,18 @@
 
   &:hover {
     text-decoration: none;
-    border-bottom: 5px solid #48b4e0;
-  }
-
-  &.active {
-    border-bottom: 5px solid #48b4e0;
+    color: #e0ad3e !important;
   }
 
   &.black {
     color: black !important;
+    &:hover {
+      color: #e0ad3e !important;
+    }
+  }
+
+  &.active {
+    color: #e0ad3e !important;
   }
 }
 
