@@ -14,8 +14,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-right">
-      <a href="linkedin.com"><FaLinkedin size={36} color="white" className="mr-3" /></a>
-      <a href="instagram.com"><FaInstagramSquare size={36} color="white" /></a>
+      <a href="https://www.linkedin.com/company/tailored-food/"><FaLinkedin size={36} color="white" className="mr-3" /></a>
+      {/* <a href="instagram.com"><FaInstagramSquare size={36} color="white" /></a> */}
       </div>
     </div>
   )
