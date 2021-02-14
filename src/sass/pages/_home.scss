@@ -57,11 +57,14 @@
   height: 200px;
   object-fit: cover;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #C4C4C4;
 }
 
 .tailored-model-card-image {
   width: 300px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .tailored-model-card-image-icon {
@@ -69,6 +72,7 @@
   height: 50px;
   background-color: #48b4e0;
   border-radius: 50%;
+  box-shadow: 1px 1px 5px #C4C4C4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,6 +93,7 @@
   height: 50px;
   background-color: #48b4e0;
   border-radius: 50%;
+  box-shadow: 1px 1px 5px #C4C4C4;
   align-items: center;
   justify-content: center;
   color: white;
