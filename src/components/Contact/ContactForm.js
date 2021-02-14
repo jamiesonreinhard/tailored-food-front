@@ -49,7 +49,7 @@ const ContactForm = () => {
     <div>
       <div className="contact-form mb-3">
         <Form id="contactForm" onSubmit={handleSubmit}>
-          <Row style={{width: "575px"}}>
+          <Row>
             <Col>
               <Form.Group>
                 <Form.Control onChange={handleChange} type="text" name="name" placeholder="Name" />
@@ -66,7 +66,7 @@ const ContactForm = () => {
             </Col>
           </Row>
             
-          <Button type="submit" className="btn btn-primary">
+          <Button type="submit" className="btn btn-primary btn-lg">
             Send
           </Button>
         </Form>

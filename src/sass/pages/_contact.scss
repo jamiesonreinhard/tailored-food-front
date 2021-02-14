@@ -5,6 +5,7 @@
 }
 
 .contact-form {
+  width: 575px;
 }
 
 .contact-image {
@@ -28,5 +29,32 @@ input {
   border: none !important;
   &:focus {
     border: none !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .contact-image {
+    height: 400px;
+  }
+  .contact-form {
+    width: 475px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-image {
+    height: 275px;
+  }
+  .contact-form {
+    width: 300px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-image {
+    display: none;  
+  }
+  .contact-form {
+    width: 300px;
   }
 }
