@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Navbar,Nav } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../images/tailored_food_logo.svg';
+import {GiHamburgerMenu} from 'react-icons/gi';
 
 const TailoredNav = () => {
   const location = useLocation();
@@ -27,7 +28,9 @@ const TailoredNav = () => {
   return(
       <Navbar expand="lg">
         <Navbar.Brand onClick={() => setActive(null)} className="pl-5"><Link to="/"><img src={logo} alt="logo" className="nav-logo" /></Link></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <GiHamburgerMenu style={{color: "#48b4e0"}} size={36}/>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             {linkList}
