@@ -26,7 +26,7 @@ const TailoredNav = () => {
   })
   return(
       <Navbar expand="lg">
-        <Navbar.Brand onClick={() => setActive(null)} className="pl-5"><Link to="/"><img src={logo} alt="logo" /></Link></Navbar.Brand>
+        <Navbar.Brand onClick={() => setActive(null)} className="pl-5"><Link to="/"><img src={logo} alt="logo" className="nav-logo" /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">

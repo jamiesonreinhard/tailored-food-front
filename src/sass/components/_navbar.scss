@@ -48,3 +48,21 @@
   color: #48b4e0 !important;
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .nav-logo {
+    width: 200px;
+  }
+  .navbar {
+    padding: 15px 20px !important; 
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-logo {
+    width: 175px;
+  }
+  .navbar {
+    padding: 15px 10px !important; 
+  }
+}
