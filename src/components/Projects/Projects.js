@@ -21,13 +21,12 @@ const Projects = () => {
   return(
     <div className="projects">
       <Container>
-      <h2 className="projects-heading mb-5">Our Projects</h2>
         <div className="row">
-          <div className="col-lg-2" style={{textAlign: "center"}}>
+          <div className="project-menu col-lg-4">
           
             {projectDeck}
           </div> 
-          <div className="col-lg-10">
+          <div className="col-lg-8">
             <Project project={active} />
           </div>
         </div>

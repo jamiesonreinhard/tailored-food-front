@@ -127,7 +127,8 @@
   width: 100px;
   height: 100px;
   object-fit: cover;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
   &:not(:last-child) {
     margin-right: 5px;
   }
@@ -140,6 +141,10 @@
 }
 .home-footer-details {
   margin-right: 10px;
+}
+
+.home-footer-image {
+  box-shadow: 1px 1px 5px #C4C4C4;
 }
 
 @media (max-width: 1200px) {

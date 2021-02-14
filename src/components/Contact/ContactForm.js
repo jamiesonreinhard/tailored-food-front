@@ -49,33 +49,25 @@ const ContactForm = () => {
     <div>
       <div className="contact-form mb-3">
         <Form id="contactForm" onSubmit={handleSubmit}>
-          <Row>
+          <Row style={{width: "575px"}}>
             <Col>
               <Form.Group>
                 <Form.Control onChange={handleChange} type="text" name="name" placeholder="Name" />
               </Form.Group>
-              
-            </Col>
-            <Col>
               <Form.Group>
                 <Form.Control onChange={handleChange} type="email" name="email" placeholder="Email" />
               </Form.Group>
-            
-            </Col>
-          </Row>
-          <Row>
-            <Col>
               <Form.Group>
                 <Form.Control onChange={handleChange} type="text" name="subject" placeholder="Subject" />
               </Form.Group>
               <Form.Group>
-                <Form.Control onChange={handleChange} as="textarea" rows={4} name="message" placeholder="Message" />
+                <Form.Control onChange={handleChange} as="textarea" rows={3} name="message" placeholder="Message" />
               </Form.Group>
             </Col>
           </Row>
             
-          <Button variant="primary" type="submit">
-            Submit
+          <Button type="submit" className="btn btn-primary">
+            Send
           </Button>
         </Form>
       
