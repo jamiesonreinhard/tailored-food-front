@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="text-center">
             <img src="/images/split-contact-image.png" alt="contact-image" className="contact-image"></img>
           </div>
-          <div className="mt-5">
+          <div className="contact-column">
             <h2 className="mb-4">Contact Us</h2>
             <ContactForm />
           </div>

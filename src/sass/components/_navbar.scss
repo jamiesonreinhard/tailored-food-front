@@ -49,6 +49,15 @@
   font-weight: bold;
 }
 
+.navbar-toggler {
+  border: none !important;
+  &:focus {
+    border: none !important;
+    text-decoration: none !important;
+    outline: none !important;
+  }
+}
+
 @media (max-width: 600px) {
   .nav-logo {
     width: 200px;

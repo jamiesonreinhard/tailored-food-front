@@ -29,7 +29,7 @@ const TailoredNav = () => {
       <Navbar expand="lg">
         <Navbar.Brand onClick={() => setActive(null)} className="pl-5"><Link to="/"><img src={logo} alt="logo" className="nav-logo" /></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <GiHamburgerMenu style={{color: "#48b4e0"}} size={36}/>
+          <GiHamburgerMenu style={{color: "#e0ad3e"}} size={36}/>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
