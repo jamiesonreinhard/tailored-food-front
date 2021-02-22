@@ -9,7 +9,7 @@ const TailoredModel = () => {
               <h5>01</h5>
             </div>
             <div className="tailored-model-card-image-box mr-5">
-              <img className="tailored-model-card-image" src="/images/homepage-img-1.jpg" alt="Anthropological Deep Dives">
+              <img className="tailored-model-card-image" src="/images/tailored-model-1.jpg" alt="Anthropological Deep Dives">
               </img>
               <div className="tailored-model-card-image-icon">
                 <h5>01</h5>
@@ -30,7 +30,7 @@ const TailoredModel = () => {
               <p>Designing and building climate-sensitive agriculture value chains, production facilities, and distribution channels for healthy, delicious, local food.</p>
             </div>
             <div className="tailored-model-card-image-box ml-5">
-              <img className="tailored-model-card-image" src="/images/homepage-img-2.jpg" alt="Anthropological Deep Dives"></img> 
+              <img className="tailored-model-card-image" src="/images/tailored-model-2.jpg" alt="Anthropological Deep Dives"></img> 
               <div className="tailored-model-card-image-icon right" style={{backgroundColor: "#e0ad3e" }}>
                 <h5>02</h5>
               </div>
@@ -42,7 +42,7 @@ const TailoredModel = () => {
               <h5>03</h5>
             </div>
             <div className="tailored-model-card-image-box mr-5">
-            <img className="tailored-model-card-image" src="/images/homepage-img-3.jpg" alt="Anthropological Deep Dives"></img>
+            <img className="tailored-model-card-image" src="/images/tailored-model-3.jpg" alt="Anthropological Deep Dives"></img>
               <div className="tailored-model-card-image-icon" style={{backgroundColor: "#51b688"}}>
                 <h5>03</h5>
               </div>

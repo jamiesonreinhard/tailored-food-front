@@ -2,7 +2,7 @@ export const team = [
   {
     "name": "Taylor Quinn",
     "role": "CEO",
-    "image": "ceo_avatar.png"
+    "image": "ceo-taylor.jpg"
   },
   {
     "name": "Emma Johnson",
@@ -35,12 +35,12 @@ export const team = [
     "image": "Medha.png"
   },
   {
-    "name": "Sandra Something",
+    "name": "Sandra Wagner",
     "role": "Marketing",
     "image": "Medha.png"
   },
   {
-    "name": "Tanya Something",
+    "name": "Tanya Bruinsma",
     "role": "Marketing",
     "image": "Medha.png"
   },

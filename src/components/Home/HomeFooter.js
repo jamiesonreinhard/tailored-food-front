@@ -13,7 +13,7 @@ const HomeFooter = () => {
       </div> 
      
       <div className="text-center">
-        <img src="/images/ceo_avatar.png" alt="CEO" class="rounded-circle mb-2 home-footer-image" style={{height: "200px", width: "200px"}} />
+        <img src="/images/ceo-taylor.jpg" alt="CEO" class="rounded-circle mb-2 home-footer-image" style={{height: "200px", width: "200px"}} />
         <div><strong>TAYLOR QUINN</strong></div>
         <small><strong>CEO</strong></small>
       </div>

@@ -5,16 +5,16 @@ const Partners = () => {
     <div className="partners-home">
       <h1 className="mb-5">Our Partners</h1>
       <div className="partners-grid">
-        <img className="partners-logo" alt="partners-logo" src="/images/tailored_JUST.jpeg" />
-        <img className="partners-logo" alt="partners-logo" src="/images/tailoredfood_GATES.png" />
-        <img className="partners-logo" alt="partners-logo" src="/images/tailoredfood_KAWADAH.png" />
-        <img className="partners-logo" alt="partners-logo" src="/images/tailoredfood_MONROVIA.png" />
-        <img className="partners-logo" alt="partners-logo" src="/images/tailoredfood_MOZAMBIQUE.png" />
-        <img className="partners-logo" alt="partners-logo" src="/images/tailoredfood_MRVEGGY.png" />
-        <img className="partners-logo" alt="partners-logo" src="/images/tailoredfood_ONE.jpeg" />
-        <img className="partners-logo" alt="partners-logo" src="/images/tailoredfood_TREASURE.png" />
-        <img className="partners-logo" alt="partners-logo" src="/images/tailoredfood_UNWFP.png" />
-        <img className="partners-logo" alt="partners-logo" src="/images/tailoredfoodRECKITT.jpg" />
+        <img className="partners-logo" alt="partners-logo" src="/images/just.png" />
+        <img className="partners-logo" alt="partners-logo" src="/images/gates.png" />
+        <img className="partners-logo" alt="partners-logo" src="/images/kawadah .png" />
+        <img className="partners-logo" alt="partners-logo" src="/images/monroviafootball.png" />
+        <img className="partners-logo" alt="partners-logo" src="/images/mozambiqueschoollunch.png" />
+        <img className="partners-logo" alt="partners-logo" src="/images/mrveggy.png" />
+        <img className="partners-logo" alt="partners-logo" src="/images/oneyoungworld.png" />
+        <img className="partners-logo" alt="partners-logo" src="/images/treasure8.jpg" />
+        <img className="partners-logo" alt="partners-logo" src="/images/WFP.jpg" />
+        <img className="partners-logo" alt="partners-logo" src="/images/Reckitt.png" />
       </div>
     </div>
   )
