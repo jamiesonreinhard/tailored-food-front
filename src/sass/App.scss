@@ -17,6 +17,11 @@
   font-family: 'QuincyCF-BoldItalic';
   src: local('QuincyCF-BoldItalic'), url(../fonts/QuincyCF-BoldItalic.woff) format('woff')
 }
+@font-face {
+  font-family: 'HergonGrotesk-Regular';
+  src: local('HergonGrotesk-Regular'), url(../fonts/HergonGrotesk-Regular.ttf)
+  format('ttf')
+}
 
 .App {
   position: relative;

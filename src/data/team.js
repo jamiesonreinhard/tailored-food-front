@@ -37,12 +37,12 @@ export const team = [
   {
     "name": "Sandra Wagner",
     "role": "Marketing",
-    "image": "Medha.png"
+    "image": ""
   },
   {
     "name": "Tanya Bruinsma",
     "role": "Marketing",
-    "image": "Medha.png"
+    "image": ""
   },
 
 ]
