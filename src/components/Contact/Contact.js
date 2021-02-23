@@ -14,6 +14,10 @@ const Contact = () => {
           </div>
           <div className="contact-column">
             <h2 className="mb-4">Contact Us</h2>
+            <div className="contact-info">
+              <h6 className="mr-3">Phone: <span style={{color: 'rgba(81, 182, 136, 1)'}}>+1-415-510-0910</span></h6>
+              <h6>Email: <a href="mailto: taylor@tailoredfood.org" style={{color: 'rgba(81, 182, 136, 1)'}}>taylor@tailoredfood.org</a></h6>
+            </div>
             <ContactForm />
           </div>
         </div>

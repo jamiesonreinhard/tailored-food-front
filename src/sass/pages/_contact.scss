@@ -4,6 +4,12 @@
   position: relative;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+
 .contact-form {
   width: 575px;
 }
@@ -48,6 +54,9 @@ input {
 @media (max-width: 900px) {
   .contact-image {
     height: 325px;
+  }
+  .contact-info {
+    flex-direction: column;
   }
   .contact-form {
     width: 300px;
