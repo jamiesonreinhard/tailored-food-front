@@ -32,7 +32,7 @@ export const team = [
   {
     "name": "Laura Something",
     "role": "Marketing",
-    "image": "Medha.png"
+    "image": "laura.png"
   },
   {
     "name": "Sandra Wagner",
