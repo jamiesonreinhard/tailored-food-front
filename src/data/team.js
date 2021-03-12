@@ -40,7 +40,7 @@ export const team = [
     "image": ""
   },
   {
-    "name": "Tanya Bruinsma",
+    "name": "Mayo-Bruinsma",
     "role": "Marketing",
     "image": ""
   },
