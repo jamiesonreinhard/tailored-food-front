@@ -2,7 +2,7 @@ import react from 'react';
 
 const TailoredModel = () => {
   return(
-    <div className="tailored-model">
+    <div className="tailored-model" id="tailored-model">
         
           <div className="tailored-model-card">
             <div className="tailored-model-card-icon-mobile">
