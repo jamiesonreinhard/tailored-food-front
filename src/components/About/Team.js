@@ -6,7 +6,12 @@ const Team = () => {
   const showTeam = team.map((member) => {
     return(
       <div className="member-card">
-        <img src={`/images/${member.image}`} className="member-card-image mb-2" alt="team-member"/>
+        <div className="member-card-image-box">
+          <img src={`/images/${member.image}`} className="member-card-image mb-2" alt="team-member"></img>
+          <div className="member-card-image-overlay">
+          <p>{member.bio}</p>
+        </div>
+        </div>
         <h4>{member.name}</h4>
         <h5>{member.role}</h5>
       </div>

@@ -10,14 +10,56 @@
   align-items: center;
   justify-content: center;
   margin: 20px;
+  position: relative;
+}
+
+.member-card-image-box {
+  width: 270px;
+  height: 270px;
+  position: relative;
+  box-shadow: 3px 3px 5px #C4C4C4;
+  border-radius: 10px;
+  transition: .5s;
+
+  &:hover .member-card-image-overlay {
+    display: flex;
+  }
+
+  &:hover .member-card-image {
+    filter: blur(3px) grayscale(90%);
+  }
 }
 
 .member-card-image {
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 3px 3px 5px #C4C4C4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.member-card-image-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  z-index: 5;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 10px 15px;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
 }
 
 @media (max-width: 900px) {
