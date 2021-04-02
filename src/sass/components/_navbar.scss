@@ -4,7 +4,16 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 15px 40px !important; 
+  padding: 15px 100px; 
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+.navbar-brand {
+  z-index: 20;
 }
 
 .dropdown-toggle .nav-link {
@@ -18,7 +27,11 @@
   color: #48b4e0 !important;
 }
 
-.nav-link a {
+.nav-items {
+  display: flex;
+}
+
+.nav-link {
   color: white !important;
   font-weight: bold;
 
