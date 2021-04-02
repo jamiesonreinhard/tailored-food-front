@@ -3,7 +3,7 @@ export const team = [
     "name": "Taylor Quinn",
     "role": "CEO",
     "image": "ceo-taylor.jpg",
-    "bio": ""
+    "bio": "Taylor Quinn is a social entrepreneur dedicated to designing and implementing nutritious low-cost food systems. He moved to Liberia during the Ebola outbreak in 2015, and used his background as a food anthropologist and social entrepreneur to build a Liberian-owned and operated business that produces nutritious low-cost delicious food (flavored cassava-based porridges) targeting consumers living in extreme poverty. Since then, he's taken this nutritious low-cost food approach to work in 10 countries, ranging from Brazil to Congo. He runs his social enterprise while working to scale his models through his day job building a global model for nutritious, delicious, affordable food systems at the UN World Food Programme."
   },
   {
     "name": "Emma Johnson",
@@ -50,8 +50,8 @@ export const team = [
   {
     "name": "Tanya Mayo-Bruinsma",
     "role": "Marketing",
-    "image": "",
-    "bio": ""
+    "image": "tanya.png",
+    "bio": "As a mother of two, Tanya knows how to put the fun into food and juggle between what the eyes savor and the body needs. When she is not busy turning her kitchen into a catering business, she explores the mountains around her French alpine home by paraglider, on skis or by foot."
   },
 
 ]
