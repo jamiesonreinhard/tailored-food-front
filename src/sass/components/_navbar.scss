@@ -5,20 +5,34 @@
   left: 0;
   width: 100%;
   padding: 15px 40px !important; 
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
 }
 
-.dropdown-toggle .nav-link {
-  color: white !important;
-  &.black {
-    color: black !important;
-  }
+.navbar-brand {
+  z-index: 20;
 }
 
-.dropdown-item {
-  color: #48b4e0 !important;
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-link a {
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-nav-links {
+  text-align: center;
+}
+
+.nav-link {
   color: white !important;
   font-weight: bold;
 
@@ -39,39 +53,74 @@
   }
 }
 
-.nav-item a {
-  color: white !important;
-  font-weight: bold;
+.smaller-screens {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  z-index: -1000;
 }
 
-.nav-item .dropdown-item a {
-  color: #48b4e0 !important;
-  font-weight: bold;
+.active-side-nav {
+  z-index: 1000;
+  min-width: 40%;
+  min-height: 35%;
 }
 
-.navbar-toggler {
-  border: none !important;
-  &:focus {
-    border: none !important;
-    text-decoration: none !important;
-    outline: none !important;
-  }
+.side-nav {
+  width: 100%;
+  height: 100%;
+  background-color: #48b4e0;
+  opacity: 0.99;
+  display: none;
+  border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+.dropdown-toggler {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  z-index: 5;
+}
+
+@media (max-width: 900px) {
   .nav-logo {
     width: 200px;
   }
+  .dropdown-toggler {
+    display: block !important;
+  }
   .navbar {
     padding: 15px 20px !important; 
+  }
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .nav-links {
+    display: none;
+  }
+  .side-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 @media (max-width: 400px) {
   .nav-logo {
-    width: 175px;
+    width: 200px;
   }
   .navbar {
     padding: 15px 10px !important; 
+  }
+  .smaller-screens {
+    width: 90%;
   }
 }
