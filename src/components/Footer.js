@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-left">
         <div>
-        <GoLocation size={36} class="mr-2" />
+        <GoLocation size={36} className="mr-2" />
         <span className="mr-5">Canada</span>
         <small className="footer-copyright">{`© ${(new Date().getFullYear())} Tailoredfood`}</small>
         </div>
