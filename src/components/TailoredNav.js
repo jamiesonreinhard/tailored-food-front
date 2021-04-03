@@ -48,7 +48,7 @@ const TailoredNav = () => {
          setActive(null)
          setShow(false)
        }}>
-        <Link to="/"><img src={logo} alt="logo" className="pl-5 nav-logo" /></Link>
+        <Link to="/"><img src={logo} alt="logo" className="nav-logo" /></Link>
        </div>
        <div className="nav-items">
           <div className="nav-links">

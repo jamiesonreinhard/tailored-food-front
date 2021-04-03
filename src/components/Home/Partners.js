@@ -7,7 +7,7 @@ const Partners = () => {
       <div className="partners-grid">
         <img className="partners-logo" alt="partners-logo" src="/images/just.png" />
         <img className="partners-logo" alt="partners-logo" src="/images/gates.png" />
-        <img className="partners-logo" alt="partners-logo" src="/images/kawadah .png" />
+        <img className="partners-logo" alt="partners-logo" src="/images/kawadah.png" />
         <img className="partners-logo" alt="partners-logo" src="/images/monroviafootball.png" />
         <img className="partners-logo" alt="partners-logo" src="/images/mozambiqueschoollunch.png" />
         <img className="partners-logo" alt="partners-logo" src="/images/mrveggy.png" />

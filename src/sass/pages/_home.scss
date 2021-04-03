@@ -212,3 +212,12 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 400px) {
+  .home-heading {
+    height: 75vh;
+  }
+  .tailored-model {
+    padding-top: 2rem;
+  }
+}
