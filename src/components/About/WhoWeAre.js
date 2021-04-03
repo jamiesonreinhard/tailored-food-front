@@ -63,7 +63,7 @@ const WhoWeAre = () => {
             </div>
           </div>
           <div className="col-lg-5 col-sm-12">
-            <div className="sticky-top text-center">
+            <div className="text-center">
               <ReactMapGl 
                 {...viewport} 
                 mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
