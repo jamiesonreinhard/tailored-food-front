@@ -30,7 +30,7 @@ const WhoWeAre = () => {
   }, [])
   return(
     <div className="about">
-      <div className="container">
+      <div>
         <h3 className="about-title">Tailored Food will be a key catalyst in <span style={{color: "#e0ad3e"}}>ending hunger by 2030</span> by building delicious, nutritious, low-cost food systems around the world.</h3>
         <div className="row">
           <div className="col-lg-7 col-sm-12 mb-3">

@@ -17,17 +17,19 @@ const About = () => {
   return(
     <div>
       <AboutBanner />
-      <div className="container about-tabs">
-        <div className="row">
-          <div className="col-6 col-lg-4 about-tabs-left">
-            <a className={pages[0] === active ? "about-tabs-link active" : "about-tabs-link"} onClick={() => setActive(pages[0])}><h4>{pages[0]}</h4></a>
-          </div>
-          <div className="col-6 col-lg-4 text-center" >
-            <a className={pages[1] === active ? "about-tabs-link active" : "about-tabs-link"} onClick={() => setActive(pages[1])}><h4>{pages[1]}</h4></a>
+      <div className="container">
+        <div className="about-tabs mb-5">
+          <div className="row">
+            <div className="col-6 col-lg-4 about-tabs-left">
+              <a className={pages[0] === active ? "about-tabs-link active" : "about-tabs-link"} onClick={() => setActive(pages[0])}><h4>{pages[0]}</h4></a>
+            </div>
+            <div className="col-6 col-lg-4 text-center" >
+              <a className={pages[1] === active ? "about-tabs-link active" : "about-tabs-link"} onClick={() => setActive(pages[1])}><h4>{pages[1]}</h4></a>
+            </div>
           </div>
         </div>
+        {active === "Who We Are" ? <WhoWeAre /> : <Team />}
       </div>
-      {active === "Who We Are" ? <WhoWeAre /> : <Team />}
     </div>
   )
 }

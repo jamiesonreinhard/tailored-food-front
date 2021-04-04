@@ -19,7 +19,7 @@ const Team = () => {
   })
   return (  
     <div className="about">
-      <div className="container">
+      <div>
         <div className="team-grid">
           {showTeam}
         </div>
