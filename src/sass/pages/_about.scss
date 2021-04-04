@@ -3,15 +3,15 @@
 }
 
 .about-tabs {
-  display: flex;
-  justify-content: center;
-  padding: 50px 0 0 0;
   &-link {
     font-size: 20px;
     &:not(:last-child) {
       margin-right: 20px;
     }
     color: #bdbdbd;
+    &-left {
+      text-align: left;
+    }
     &.active {
       color: black;
     }
@@ -36,4 +36,12 @@
   margin:20px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px #C4C4C4;
+}
+
+@media (max-width: 992px) {
+  .about-tabs {
+    &-left {
+      text-align: center;
+    }
+  }
 }

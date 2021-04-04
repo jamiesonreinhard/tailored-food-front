@@ -31,7 +31,7 @@ const WhoWeAre = () => {
   return(
     <div className="about">
       <div className="container">
-        <h2 className="about-title">Tailored Food will be a key catalyst in <span style={{color: "#e0ad3e"}}>ending hunger by 2030</span> by building delicious, nutritious, low-cost food systems around the world.</h2>
+        <h3 className="about-title">Tailored Food will be a key catalyst in <span style={{color: "#e0ad3e"}}>ending hunger by 2030</span> by building delicious, nutritious, low-cost food systems around the world.</h3>
         <div className="row">
           <div className="col-lg-7 col-sm-12 mb-3">
             <div className="mb-4">
@@ -62,13 +62,13 @@ const WhoWeAre = () => {
               <p>Tailored Food is well-positioned to pioneer an innovative form of international development, leveraging its expertise and networks to ensure nutritious, delicious, culturally relevant, and low-cost food is available to people suffering from malnutrition in their markets every day, without a reliance on continuous charitable funding. Our organization will bring product development and demand creation expertise that will be unleashed at the policy level globally while also being mobilized at the grassroots level in partnership with local for and non-profit food organizations.</p>
             </div>
           </div>
-          <div className="col-lg-5 col-sm-12">
+          <div className="col-lg-5 col-sm-12" style={{padding: "0px 16px"}}>
             <div className="text-center">
               <ReactMapGl 
                 {...viewport} 
                 mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
                 className="map-container"
-                mapStyle="mapbox://styles/jamoskier2/ckjirszpt3yln1aoikzkgmvva"
+                mapStyle="mapbox://styles/mapbox/outdoors-v11"
                 onViewportChange={viewport => {
                   setViewport(viewport);
                 }}

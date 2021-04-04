@@ -13,17 +13,19 @@ const About = () => {
 
   const pages = ["Who We Are", "Meet the Team"]
   const [active, setActive] = useState(pages[0])
-  const pageTabs = pages.map((page) => {
-    return(
-      <a className={page === active ? "about-tabs-link active" : "about-tabs-link"} onClick={() => setActive(page)}><h3>{page}</h3></a>
-    )
-  })
 
   return(
     <div>
       <AboutBanner />
-      <div className="about-tabs">
-        {pageTabs}
+      <div className="container about-tabs">
+        <div className="row">
+          <div className="col-6 col-lg-4 about-tabs-left">
+            <a className={pages[0] === active ? "about-tabs-link active" : "about-tabs-link"} onClick={() => setActive(pages[0])}><h4>{pages[0]}</h4></a>
+          </div>
+          <div className="col-6 col-lg-4 text-center" >
+            <a className={pages[1] === active ? "about-tabs-link active" : "about-tabs-link"} onClick={() => setActive(pages[1])}><h4>{pages[1]}</h4></a>
+          </div>
+        </div>
       </div>
       {active === "Who We Are" ? <WhoWeAre /> : <Team />}
     </div>
