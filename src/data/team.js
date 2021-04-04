@@ -3,7 +3,7 @@ export const team = [
     "name": "Taylor Quinn",
     "role": "CEO",
     "image": "ceo-taylor.jpg",
-    "bio": "Taylor Quinn is a social entrepreneur dedicated to designing and implementing nutritious low-cost food systems. He moved to Liberia during the Ebola outbreak in 2015, and used his background as a food anthropologist and social entrepreneur to build a Liberian-owned and operated business that produces nutritious low-cost delicious food (flavored cassava-based porridges) targeting consumers living in extreme poverty. Since then, he's taken this nutritious low-cost food approach to work in 10 countries, ranging from Brazil to Congo. He runs his social enterprise while working to scale his models through his day job building a global model for nutritious, delicious, affordable food systems at the UN World Food Programme."
+    "bio": "Taylor Quinn is a social entrepreneur dedicated to building nutritious low-cost food systems. He moved to Liberia during the Ebola outbreak, and used his background as a food anthropologist to build a Liberian-owned business that produces nutritious low-cost delicious food (flavored cassava-based porridges) for consumers in extreme poverty. He has since taken this model to work in 10 countries, from Brazil to Congo, while also scaling up this approach at the UN World Food Programme."
   },
   {
     "name": "Emma Johnson",
@@ -23,12 +23,12 @@ export const team = [
     "image": "Martin.png",
     "bio": "Martin is a Graphic designer/illustrator and Product designer with more than 6 years of experience in design. He has designed for companies like Dash Cryptocurrency and a lot of companies in the tech space to name a few."
   },
-  {
-    "name": "Sagar Jha",
-    "role": "Marketing",
-    "image": "Sagar.png",
-    "bio": ""
-  },
+  // {
+  //   "name": "Sagar Jha",
+  //   "role": "Marketing",
+  //   "image": "Sagar.png",
+  //   "bio": ""
+  // },
   {
     "name": "Medha Gupta",
     "role": "Marketing",
@@ -41,12 +41,12 @@ export const team = [
     "image": "laura.png",
     "bio": "Laura is a pharmacist and nutrition scientist from Austria. Her interests are in public health and maternal and child nutrition – often in the context of micronutrient supply through fortified foods and food safety. She loves great conversations, knowing what motivates people around her, boardgames, baking, traveling, and time spent with her family, friends and her cats Mochi + Mitzi. One of Laura's motivations is helping to end malnutrition and improving the livelihoods of vulnerable populations."
   },
-  {
-    "name": "Sandra Wagner",
-    "role": "Marketing",
-    "image": "",
-    "bio": ""
-  },
+  // {
+  //   "name": "Sandra Wagner",
+  //   "role": "Marketing",
+  //   "image": "",
+  //   "bio": ""
+  // },
   {
     "name": "Tanya Mayo-Bruinsma",
     "role": "Marketing",
