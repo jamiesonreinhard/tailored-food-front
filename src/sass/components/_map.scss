@@ -6,7 +6,7 @@
   right: 0;
   border-radius: 10px;
   height: 500px;
-  max-width: 100%;
+  max-width: 100% !important;
   box-shadow: 3px 3px 5px #C4C4C4;
   z-index: 0;
 }
@@ -45,5 +45,12 @@
   &:active {
     outline: none;
     border: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .map-container {
+    min-width: 100%;
+    max-width: 100%;
   }
 }
