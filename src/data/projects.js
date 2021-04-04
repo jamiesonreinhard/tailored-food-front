@@ -42,7 +42,7 @@ export const projects = [
     "stage": "Development",
     "description": "Consultant hired by UN World Food Programme, completing market research, product launch, and business growth work on cassava and breadfruit value chains in southern Madagascar.",
     "partner_name": "UN World Food Programme Country Office",
-    "image": "WFPaccelorator.png"
+    "image": "WFP.jpg"
   },
   {
     "location": "Liberia",
