@@ -54,13 +54,13 @@ const TailoredNav = () => {
           <div className="nav-links">
             {linkList}
           </div> 
-          <div className={show ? "smaller-screens active-side-nav" : "smaller-screens"}>
-            <div className="dropdown-toggler" onClick={() => {
+          <div className="dropdown-toggler" onClick={() => {
               setShow(!show)
               console.log(show)
             }}>
               <GiHamburgerMenu style={{color: "#e0ad3e"}} size={36} />
             </div>
+          <div className={show ? "smaller-screens active-side-nav" : "smaller-screens"}>
             <SideNav />
           </div>
        </div>
