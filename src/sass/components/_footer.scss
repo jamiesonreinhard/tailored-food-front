@@ -9,22 +9,14 @@
   padding: 0 50px;
 }
 
-.footer-right {
-
-}
-
-.footer-left {
-
-}
-
 .social-links {
   color: white;
 }
 
 @media (max-width: 800px) { 
   .footer {
-    height: 100px;
-    flex-direction: column;
-    padding: 10px 0;
+    height: 50px;
+    flex-direction: row;
+    padding: 10px 20px;
   }
 }
