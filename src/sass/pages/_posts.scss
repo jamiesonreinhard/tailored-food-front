@@ -1,0 +1,28 @@
+.posts {
+  min-height: 50vh;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.posts-card {
+
+  display: flex;
+  color: black;
+
+  &-image {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #C4C4C4;
+  }
+  
+}
+
+.singlePostImage {
+  width: 100%;
+  height: 300px;
+}
