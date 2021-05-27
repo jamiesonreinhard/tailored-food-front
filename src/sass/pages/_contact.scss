@@ -1,6 +1,6 @@
 .contact {
   padding-top: 85px;
-  min-height: 45rem;
+  min-height: 50.1rem;
   position: relative;
 }
 
@@ -11,13 +11,26 @@
 }
 
 .contact-form {
-  width: 575px;
+  width: 500px;
 }
 
 .contact-image {
   margin-right: 80px;
-  border-radius: 10px;
   height: 500px;
+  display: flex;
+
+  &-1 {
+    border-radius: 20px;
+    width: 211px;
+    height: 500px;
+    margin-right: 45px;
+  }
+
+  &-2 {
+    border-radius: 20px;
+    width: 211px;
+    height: px;
+  }
 }
 
 .contact-column {
@@ -42,18 +55,15 @@ input {
   }
 }
 
-@media (max-width: 1100px) {
-  .contact-image {
-    height: 400px;
-  }
+@media (max-width: 1100px) {  
   .contact-form {
-    width: 475px;
+    width: 400px;
   }
 }
 
 @media (max-width: 900px) {
-  .contact-image {
-    height: 325px;
+  .contact-image-1 {
+    margin-right: 25px;
   }
   .contact-info {
     flex-direction: column;
@@ -72,5 +82,19 @@ input {
   }
   .contact-form {
     width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact {
+    min-height: 94vh;
+  }
+  .contact-column {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact-form {
+    width: 100%;
   }
 }

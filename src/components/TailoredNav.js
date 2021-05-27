@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../images/tailored_food_logo.svg';
 import {GiHamburgerMenu} from 'react-icons/gi';
+import {MdClose} from 'react-icons/md';
 
 const TailoredNav = () => {
   const location = useLocation();
@@ -32,6 +33,13 @@ const TailoredNav = () => {
     if(show){
       return(
         <div className="side-nav">
+          <div className="side-nav-close">
+            <MdClose 
+            style={{color: "#e0ad3e"}} 
+            size={48} 
+            onClick={() => setShow(false)}
+            />
+          </div>
           <div className="side-nav-links">
             {linkList}
           </div>

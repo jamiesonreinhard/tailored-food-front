@@ -10,7 +10,10 @@ const Contact = () => {
       <div className="container">
         <div className="d-flex flex-row justify-content-center align-items-start">
           <div className="text-center">
-            <img src="/images/split-contact-image.png" alt="contact-image" className="contact-image"></img>
+            <div className="contact-image">
+              <img className="contact-image-1" src="images/contactLeft.png"/>
+              <img className="contact-image-2" src="images/contactRight.png" />
+            </div>
           </div>
           <div className="contact-column">
             <h2 className="mb-4">Contact Us</h2>

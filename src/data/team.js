@@ -41,17 +41,16 @@ export const team = [
     "image": "laura.png",
     "bio": "Laura is a pharmacist and nutrition scientist from Austria. Her interests are in public health and maternal and child nutrition – often in the context of micronutrient supply through fortified foods and food safety. She loves great conversations, knowing what motivates people around her, boardgames, baking, traveling, and time spent with her family, friends and her cats Mochi + Mitzi. One of Laura's motivations is helping to end malnutrition and improving the livelihoods of vulnerable populations."
   },
-  // {
-  //   "name": "Sandra Wagner",
-  //   "role": "Marketing",
-  //   "image": "",
-  //   "bio": ""
-  // },
+  {
+    "name": "Sandra Wagner",
+    "role": "Marketing",
+    "image": "Sandra.png",
+    "bio": "Food Scientist with 18+ years of experience in the Food and Ingredient industries. Business Development, Marketing and Global Product Management experience. Master of Science in Law from Northwestern University (Law/Business and Innovation). I am an active yoga practitioner and advocate for good nutrition and sustainability."
+  },
   {
     "name": "Tanya Mayo-Bruinsma",
     "role": "Marketing",
     "image": "tanya.png",
     "bio": "As a mother of two, Tanya knows how to put the fun into food and juggle between what the eyes savor and the body needs. When she is not busy turning her kitchen into a catering business, she explores the mountains around her French alpine home by paraglider, on skis or by foot."
   },
-
 ]
