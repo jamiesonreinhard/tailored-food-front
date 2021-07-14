@@ -1,14 +1,5 @@
 export const projects = [
   {
-    "location": "Peru",
-    "coordinates": [-12.0464, -77.0428],
-    "product": "Fortified pasta line",
-    "stage": "Development",
-    "description": "Designing and taking to market super-nutritious pasta targeting consumers in poverty. Leading project development, market research strategy, and go-to-market planning.",
-    "partner_name": "Grupo Alimenta",
-    "image": "gates.png"
-  },
-  {
     "location": "Mozambique",
     "coordinates": [18.6657, 35.5296],
     "product": "Peanut Butter",
