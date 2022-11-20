@@ -9,7 +9,6 @@
     "bootstrap": "^4.5.3",
     "emailjs-com": "^2.6.4",
     "mapbox-gl": "^2.0.1",
-    "node-sass": "4.14.1",
     "react": "^17.0.1",
     "react-awesome-slider": "^4.1.0",
     "react-background-slider": "^2.0.0",
@@ -22,6 +21,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-toastify": "^6.2.0",
+    "sass": "^1.56.1",
     "web-vitals": "^0.2.4",
     "worker-loader": "^3.0.7",
     "yarn": "^1.22.10"
