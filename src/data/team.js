@@ -18,7 +18,7 @@ export const team = [
     "bio": "As a mother of two, Tanya knows how to put the fun into food and juggle between what the eyes savor and the body needs. When she is not busy turning her kitchen into a catering business, she explores the mountains around her French alpine home by paraglider, on skis or by foot."
   },
   {
-    "name": "Rachel",
+    "name": "Rachel D'armiento",
     "role": "Project Manager",
     "image": "rachel.png",
     "bio": "Rachel is an adventurous and ambitious project manager who enjoys spending time engaging deeply with communities. Rachel has a strong passion for sustainable global development and gender equality and she is pursuing her studies in International development and Social Anthropology as she works to build impact-driven organizations."
