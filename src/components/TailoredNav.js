@@ -9,7 +9,7 @@ const TailoredNav = () => {
   console.log(location.pathname);
   const [active, setActive] = useState(null)
   const [show, setShow] = useState(false)
-  const navLinks = ["About", "Projects", "Contact"]
+  const navLinks = ["About", "Projects", "Media", "Contact"]
   const linkList = navLinks.map((link) => {
     return(
       <div 
