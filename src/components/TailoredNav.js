@@ -6,10 +6,9 @@ import {MdClose} from 'react-icons/md';
 
 const TailoredNav = () => {
   const location = useLocation();
-  console.log(location.pathname);
   const [active, setActive] = useState(null)
   const [show, setShow] = useState(false)
-  const navLinks = ["About", "Projects", "Media", "Contact"]
+  const navLinks = ["About", "Projects", "Contact"]
   const linkList = navLinks.map((link) => {
     return(
       <div 
