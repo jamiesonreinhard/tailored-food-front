@@ -14,6 +14,8 @@ const Partners = () => {
         <img className="partners-logo" alt="partners-logo" src="/images/oneyoungworld.png" />
         <img className="partners-logo" alt="partners-logo" src="/images/treasure8.jpg" />
         <img className="partners-logo" alt="partners-logo" src="/images/WFP.jpg" />
+        <img className="partners-logo" alt="partners-logo" src="/images/benu.png" />
+        <img className="partners-logo" alt="partners-logo" src="/images/kayvey.png" />
       </div>
     </div>
   )

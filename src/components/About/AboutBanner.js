@@ -1,9 +1,19 @@
 import react from 'react';
 
-const AboutBanner = () => {
+const AboutBanner = (props) => {
+  const {pages, active} = props.props;
+  
   return(
-    <div className="about-banner">
-    </div>
+    <>
+      {pages[0] === active ? (
+        <div className="about-banner">
+        </div>
+      ) : (
+        <div className="about-banner-team">
+        </div>
+      )}
+    </>
+    
   )
 }
 

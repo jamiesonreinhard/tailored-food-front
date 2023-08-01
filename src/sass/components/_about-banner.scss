@@ -11,3 +11,17 @@
     background-size: cover;
   }
 }
+
+.about-banner-team {
+  height: 500px;
+  width: 100%;
+  background:  linear-gradient(-135deg, rgba(255, 255, 255, 0.2) 2%, transparent 98%), url('../../images/about-bg-team-1.png');
+  background-size: cover;
+  background-position: 10% 10%;
+
+  @media (max-width: 400px) {
+    background-position: 40% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

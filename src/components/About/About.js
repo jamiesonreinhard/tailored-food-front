@@ -16,7 +16,7 @@ const About = () => {
 
   return(
     <div>
-      <AboutBanner />
+      <AboutBanner props={{pages, active}} />
       <div className="container">
         <div className="about-tabs mb-5">
           <div className="row">

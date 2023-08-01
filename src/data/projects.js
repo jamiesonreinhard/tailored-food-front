@@ -6,7 +6,8 @@ export const projects = [
     "stage": "Operational",
     "description": "In partnership with Kawadah Farms - Local Grassroots Business built, cassava-based flavored porridge line launched, over 1,000,000 meals purchased, licensing model operational for 5 years, currently adapting distribution strategy while scaling up through a partnership with the US Department of Agriculture's McGovern-Dole School Feeding Program.",
     "partner_name": "Kawadah Farms",
-    "image": "kawadah.png"
+    "image": "kawadah.png",
+    "link": "https://www.kawadahfarm.com"
   },
   {
     "location": "Congo",
@@ -24,7 +25,8 @@ export const projects = [
     "stage": "Development",
     "description": "In partnership with Mozambique School Lunch Initiative - Launching the first low-cost nutritious peanut butter to ever be available in Mozambique, a country where peanut butter is wildly popular but is currently a luxury item. Sourced and ordered manufacturing equipment, completed market research, and ran five production trials before beginning low-cost peanut butter sales to families struggling with malnutrition in Mozambique.",
     "partner_name": "Mozambique School Lunch Initiative",
-    "image": "mozambiqueschoollunch.png"
+    "image": "mozambiqueschoollunch.png",
+    "link": "https://mozambiqueschoollunchinitiative.org"
   },
   {
     "location": "Cameroon",
@@ -33,7 +35,8 @@ export const projects = [
     "stage": "Launching",
     "description": "In partnership with local social enterprise Kayvey Nutri Foods - Revamping Kayvey's nutritious porridge product line, improving cost, packaging, and distribution. The goal is to ensure Kayvey's line of nutritious, affordable porridge products are available to families in all regions of Cameroon.",
     "partner_name": "Kayvey Nutri Foods",
-    "image": "kayvey.png"
+    "image": "kayvey.png",
+    "link": "https://www.kayveynutrifoods.org"
   },
   {
     "location": "Ethiopia",
@@ -42,7 +45,8 @@ export const projects = [
     "stage": "Launching",
     "description": "In partnership with local social enterprise BeNu - reformulating BeNu's protein-rich, locally-produced full-meal biscuit products, improving the nutrition profile, the flavor, the product structure, while expanding the business in both the food aid and private markets, targeting people suffering from malnutrition.",
     "partner_name": "BeNu",
-    "image": "benu.png"
+    "image": "benu.png",
+    "link": "https://benufoodsethiopia.com"
   },
   {
     "location": "Brazil",
